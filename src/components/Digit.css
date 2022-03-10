@@ -1,0 +1,15 @@
+.display{
+    text-align: center;
+    margin-left: 30px;
+}
+
+.display p {
+    margin: 0;
+    font-size: 1.5em;
+    color: #21EB00
+}
+
+.digit{
+    font-size: 100px;
+    color: #fff;
+}

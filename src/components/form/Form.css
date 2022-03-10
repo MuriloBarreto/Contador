@@ -1,0 +1,54 @@
+.bloco{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco h1{
+    color: #21EB00;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label{
+    margin-bottom: 10px;
+    color: gray;
+    text-align: center;
+}
+
+.formulario input{
+    margin-bottom: 20px;
+    width: 250px;
+    border-radius: 18px;
+    font-size: 17px;
+    border: none;
+    padding: 10px; 
+    color: gray;
+    cursor: pointer;
+    background-color: #191A18;
+}
+
+.formulario button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #21EB00;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formulario button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.formulario button:active{
+    background-color: darkgreen;
+}

@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2{
+    color: #191A18;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.temp{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:center;
+}
+
+@media (max-width: 600px){
+    .temp{
+        flex-direction: column;
+    }
+}
