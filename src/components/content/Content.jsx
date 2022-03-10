@@ -1,6 +1,6 @@
 import React from 'react';
 import './Content.css';
-import Digit from './Digit';
+import Digit from '../digit/Digit';
 
 export default function Content(props){
     return (

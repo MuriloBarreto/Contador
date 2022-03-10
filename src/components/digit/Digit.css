@@ -13,3 +13,9 @@
     font-size: 100px;
     color: #fff;
 }
+
+@media (max-width: 600px){
+    .display{
+        margin: 15px 0;
+    }
+}

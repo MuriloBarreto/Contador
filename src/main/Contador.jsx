@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Content from "../components/Content";
+import Content from "../components/content/Content";
 import Form from "../components/form/Form";
-import Hearder from "../components/Header";
+import Hearder from "../components/header/Header";
 import "./Contador.css";
 
 const initialState = {
